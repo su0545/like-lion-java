@@ -8,6 +8,7 @@ public class CalculatorMain {
         calculator.minus(10, 20);
         calculator.multiple(10, 20);
         calculator.divide(10, 20);
+
     }
 }
 
