@@ -4,7 +4,7 @@ public class Max02 {
     public int getMax(int[] arr) {
         //loop 구성
         int maxValue = 0;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             if (arr[i] > maxValue){
                 maxValue = arr[i];
             }
@@ -23,3 +23,5 @@ public class Max02 {
         }
     }
 }
+
+
